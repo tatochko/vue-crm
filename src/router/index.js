@@ -17,10 +17,34 @@ const routes = [
     component: () => import('./../views/Login.vue')
   },
   {
+    path: '/Profile',
+    name: 'Profile',
+    meta: { layout: 'empty' },
+    component: () => import('./../views/Profile.vue')
+  },
+  {
+    path: '/Register',
+    name: 'Register',
+    meta: { layout: 'empty' },
+    component: () => import('./../views/Register.vue')
+  },
+  {
     path: '/Categories',
     name: 'Categories',
     meta: { layout: 'main' },
     component: () => import ('./../views/Categories.vue')
+  },
+  {
+    path: '/History',
+    name: 'History',
+    meta: { layout: 'empty' },
+    component: () => import('./../views/History.vue')
+  },
+  {
+    path: '/Planning',
+    name: 'Planning',
+    meta: { layout: 'empty' },
+    component: () => import('./../views/Planning.vue')
   }
 ]
 
