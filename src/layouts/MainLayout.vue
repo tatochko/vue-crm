@@ -13,7 +13,7 @@
 
     <div class="fixed-action-btn">
       <router-link class="btn-floating btn-large blue" to="/record">
-        <i class="large material-icons">add</i>
+        <i class="fa fa-plus" aria-hidden="true"></i>
       </router-link>
     </div>
   </div>

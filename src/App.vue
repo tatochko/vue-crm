@@ -23,5 +23,6 @@ export default {
 
 <style lang="scss">
 @import '~materialize-css/dist/css/materialize.min.css';
+@import '~font-awesome/css/font-awesome.min.css';
 @import 'assets/index.css';
 </style>
